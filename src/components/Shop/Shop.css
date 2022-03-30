@@ -1,0 +1,23 @@
+.container {
+    max-width: 1370px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 20px;
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(29%, 1fr));
+    gap: 45px;
+}
+
+.cart-container {
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 20px;
+    background: rgba(255, 153, 0, 0.3);
+}
