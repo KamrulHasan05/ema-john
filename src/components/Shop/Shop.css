@@ -16,8 +16,27 @@
 }
 
 .cart-container {
-    text-align: center;
-    padding: 20px 0;
     border-radius: 20px;
     background: rgba(255, 153, 0, 0.3);
+}
+
+.common-btn {
+    margin-top: 30px;
+    width: 100%;
+    padding: 15px 20px;
+    border: none;
+    background: #FF9900;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.common-btn .icon {
+    margin-left: 10px;
+    font-size: 22px;
 }
