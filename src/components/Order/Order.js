@@ -27,7 +27,7 @@ const Order = () => {
                     </div>
                     <div className="cart-container">
                         <Cart cart={cart}>
-                            <Link to='/inventory'>
+                            <Link to='/shipment'>
                                 <button className='common-btn d-flex align-center space-between'>Proceed Checkout <FontAwesomeIcon className='icon' icon={faCreditCard}></FontAwesomeIcon></button>
                             </Link>
                         </Cart>
